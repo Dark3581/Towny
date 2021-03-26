@@ -19,14 +19,6 @@ Towny is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivs
 We don't object to you making your own forks and builds but we do object to people being selfish, which is why we specify No Derivative Works.
 If you want to modify the code to add some nice feature the least you can do is ask and submit a pull request to allow everyone to benefit from it.
 
-___
-
-### Importing Towny for API use
-[![](https://jitpack.io/v/TownyAdvanced/Towny.svg)](https://jitpack.io/#TownyAdvanced/Towny)
-
-Developers who wish to use the Towny API in their plugins may read [the following instructions on adding Towny via a maven pom.xml.](https://github.com/TownyAdvanced/Towny/wiki/TownyAPI#getting-started-with-towny-and-your-ide)
-
-___
 
 ### Building Towny
 If you would like to build from a specific branch yourself, you can do so with either [Apache Ant](https://ant.apache.org/) or [Apache Maven](http://maven.apache.org/), depending on the age of the branch.
