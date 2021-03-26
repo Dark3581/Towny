@@ -1,4 +1,4 @@
-## [Towny Advanced](https://townyadvanced.github.io) - Developed by [LlmDl](https://github.com/LlmDl)
+## [Towny Donny] Developed by [LlmDl](https://github.com/LlmDl)
 
 ___
 
