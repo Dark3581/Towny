@@ -278,11 +278,11 @@ public class FlagWar {
 			throw new TownyException(Translation.of("msg_err_enemy_war_not_part_of_nation"));
 		}
 
-		// Check Peace
-		if (landOwnerNation.isNeutral())
-			throw new TownyException(Translation.of("msg_err_enemy_war_is_peaceful", landOwnerNation.getFormattedName()));
-		if (!townyUniverse.getPermissionSource().isTownyAdmin(player) && attackingNation.isNeutral())
-			throw new TownyException(Translation.of("msg_err_enemy_war_is_peaceful", attackingNation.getFormattedName()));
+		// Check Peace     //REMOVED TOO OP
+		//if (landOwnerNation.isNeutral())
+			//throw new TownyException(Translation.of("msg_err_enemy_war_is_peaceful", landOwnerNation.getFormattedName()));
+		//if (!townyUniverse.getPermissionSource().isTownyAdmin(player) && attackingNation.isNeutral())
+			//throw new TownyException(Translation.of("msg_err_enemy_war_is_peaceful", attackingNation.getFormattedName()));
 
 		// Check Minimum Players Online
 		checkIfTownHasMinOnlineForWar(landOwnerTown);
